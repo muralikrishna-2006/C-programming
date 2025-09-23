@@ -1,0 +1,15 @@
+ASSIGNED VALUE
+#include <stdio.h>
+int main() {
+    int a=5,b=3,c=9;
+    printf("%d\n",a);
+    printf("%d\n",b);
+    printf("%d\n",c);
+    return 0;
+}
+Output
+5
+3
+9
+
+

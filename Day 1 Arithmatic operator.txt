@@ -1,0 +1,21 @@
+ARITHMETIC OPERATORS
+#include <stdio.h>
+int main() {
+    int a,b;
+    printf("enter value of a and b:");
+    scanf("%d %d",&a,&b);
+    printf("sum of a and b is %d\n",a+b);
+    printf("subtraction of a and b is %d\n",a-b);
+    printf("multiflication of a and b is %d\n",a*b);
+    printf("division of a and b is %d\n",a/b);
+    return 0;
+}
+   
+Output
+
+enter value of a and b:4 2
+sum of a and b is 6
+subtraction of a and b is 2
+multiflication of a and b is 8
+division of a and b is 2
+

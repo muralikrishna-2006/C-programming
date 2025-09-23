@@ -1,0 +1,17 @@
+IF ELSE CONDITION
+#include <stdio.h>
+int main() {
+    int a,b;
+    printf("enter value of a and b:");
+    scanf("%d %d",&a,&b);
+    if(a==b)
+    printf("is equal to");
+    else
+    printf("is not equal to");
+    return 0;
+}
+    
+Output
+
+enter value of a and b:2 4
+is not equal to

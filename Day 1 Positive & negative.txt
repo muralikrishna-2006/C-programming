@@ -1,0 +1,21 @@
+POSITIVE & NEGATIVE VALUE
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    if (num > 0) {
+        printf("The number %d is positive.\n", num);
+    } else if (num < 0) {
+        printf("The number %d is negative.\n", num);
+    } else {
+        printf("The number is zero.\n");
+    }
+
+    return 0;
+}
+
+Output
+Enter a number: 8
+The number 8 is positive.
+
