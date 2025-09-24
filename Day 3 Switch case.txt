@@ -1,0 +1,56 @@
+#include<stdio.h>
+int main() {
+    int a,b,c,d,e;
+    int choice,sum,max;
+    printf("Enter 5 numbers:\n");
+    scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+    printf("\nchoose an option:\n");
+    printf("1.Display all numbers\n");
+     printf("2.Find sum of numbers\n");
+      printf("3.Find maximum numbers\n");
+      printf("4.Exit\n");
+      printf("Enter your choice: ");
+      scanf("%d",&choice);
+      switch(choice){
+          case 1:
+          printf("\nNumber are: %d %d %d %d %d\n",a,b,c,d,e);
+          break;
+           case 2:
+           sum=a+b+c+d+e;
+          printf("\nSum=%d\n",sum);
+          break;
+          case 3:
+          max=a;
+          if(b>max)max=b;
+          if(c>max)max=c;
+          if(d>max)max=d;
+          if(e>max)max=e;
+          printf("\n maximum = %d\n",max);
+          break;
+          case 4:
+          printf("\nExiting program...\n");
+          break;
+          default:
+          printf("\nInvalid choice!\n");
+          
+      }
+      return 0;
+}
+
+
+Output
+
+Enter 5 numbers:
+7 5 6 4 8
+
+choose an option:
+1.Display all numbers
+2.Find sum of numbers
+3.Find maximum numbers
+4.Exit
+Enter your choice: 3
+
+ maximum = 8
+
+
+=== Code Execution Successful ===
