@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main(){
+    int i=1,n;
+    printf("Enter a number: ");
+    scanf("%d",&n);
+    while(i<=10){
+        printf("%d*%d = %d\n",n,i,n*i);
+        i++;
+    }
+    return 0;
+}
+
+Output
+
+Enter a number: 16
+16*1 = 16
+16*2 = 32
+16*3 = 48
+16*4 = 64
+16*5 = 80
+16*6 = 96
+16*7 = 112
+16*8 = 128
+16*9 = 144
+16*10 = 160
+
+
+=== Code Execution Successful ===
