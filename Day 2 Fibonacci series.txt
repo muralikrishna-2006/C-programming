@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main() {
+    int n,i;
+    int t1=0,t2=0,nextTerm;
+    printf("Enter a number of Terms: ");
+    scanf("%d",&n);
+    printf("Fibonacci Series: ");
+    for(i=1;i<=n;i++){
+        printf("%d",t1);
+        nextTerm=t1+t2;
+        t1=t2;
+        t2=nextTerm;
+    }
+    return 0;
+}
+
+Output
+
+Enter a number of Terms: 23
+Fibonacci Series: 00000000000000000000000
+
+=== Code Execution Successful ===
