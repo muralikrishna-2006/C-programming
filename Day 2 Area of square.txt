@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int side=5;
+    int area = side * side;
+    printf("Side of the square: %d\n", side);
+    printf("Area of the square: %d\n", area);
+
+    return 0;
+}
+
+Output
+
+Side of the square: 5
+Area of the square: 25
+
+
+=== Code Execution Successful ===
