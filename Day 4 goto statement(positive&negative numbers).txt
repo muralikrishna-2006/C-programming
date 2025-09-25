@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+    int num;
+    printf("Enter a positive numbers: ");
+    scanf("%d",&num);
+    if(num<0){
+        goto negative;
+    }
+    printf("you entered: %d\n",num);
+    return 0;
+    negative:
+    printf("you entered a negative number!\n");
+    return 0;
+}
+
+Output
+
+Enter a positive numbers: 7
+you entered: 7
+
+
+=== Code Execution Successful ===
