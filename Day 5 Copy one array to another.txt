@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int original[5] = {10, 20, 30, 40, 50};
+    int copy[5];
+    for (int i = 0; i < 5; i++) {
+        copy[i] = original[i];
+    }
+    printf("Copied array: ");
+    for (int i = 0; i < 5; i++) {
+        printf("%d ", copy[i]);
+    }
+
+    return 0;
+}
+
+Output
+
+Copied array: 10 20 30 40 50 
+
+=== Code Execution Successful ===
